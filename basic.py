@@ -47,6 +47,7 @@ Number 45  =Def area of circle
 Number 46  =Def leap year 
 Number 47  =Def vote 
 Number 48  =Great of 4 value 
+Number 49  =Type Identify
 """
 
 print(abi)
@@ -613,7 +614,14 @@ elif single==48:
         print("C is greatest")
     else:
         print("D is greatest")
-
+elif single==49:
+    print("Type identify")
+    no=89
+    bye="Hello"
+    point=54.6
+    print(type(no),no)
+    print(type(bye),bye)
+    print(type(point),point)
 
 else: print("SORRY,You Enter the wrong number,PLEASE ENTER CORRECT NUMBER...")
 
