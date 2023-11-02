@@ -1,53 +1,53 @@
 abi="""
-Number 1   =Temp swap 
-Number 2   =Tuple swap 
-Number 3   =Add,Sub,Mul.Three No 
-Number 4   =Canteen Items 
-Number 5   =Armstrong Number 
-Number 6   =boolen use to find greatest 
-Number 7   =Double n print single line 
-Number 8   =Number in same line 
-Number 9   =Int+float 
-Number 10  =len,app,exe,intsert
-Number 11  =Star low to up
-Number 12  =Family earn 
-Number 13  =len to string 
-Number 14  =List Odd and Even numbers 
-Number 15  =To find types 
-Number 16  =Boolen is find digit or number  
-Number 17  =splite a word in single letter 
-Number 18  =Break Continue 
-Number 19  =List break 
-Number 20  =Multiple a,b 
-Number 21  =list remove,pop 
-Number 22  =Ascending,Dscending 
-Number 23  =Basic sep,end 
-Number 24  =String slice,find 
-Number 25  =Slice find index value
-Number 26  =rstrip,lstrip... 
-Number 27  =Add,sub 
-Number 28  =To find list index 
-Number 29  =To find tuple index 
-Number 30  =Use _*#.. 
-Number 31  =is upper,space 
-Number 32  =College fees 
-Number 33  =list index 
-Number 34  =Leap year 
-Number 35  =Find greatest of 4 number 
-Number 36  =check for vote 
-Number 37  =Say Hello in all 
-Number 38  =Engineering Cutoff calculate 
-Number 39  =Medical cutoff calculate 
-Number 40  =Calendar 
-Number 41  =For use Table 
-Number 42  =Loop Odd num,Even num 
-Number 43  =Circulating 
-Number 44  =Def use to add 
-Number 45  =Def area of circle 
-Number 46  =Def leap year 
-Number 47  =Def vote 
-Number 48  =Great of 4 value 
-Number 49  =Type Identify
+ 1   =Temp swap 
+ 2   =Tuple swap 
+ 3   =Add,Sub,Mul.Three No 
+ 4   =Canteen Items 
+ 5   =Armstrong Numbers
+ 6   =boolen use to find greatest 
+ 7   =Double n print single line 
+ 8   =Numbers in same line 
+ 9   =Int+float 
+ 10  =len,app,exe,intsert
+ 11  =Star low to up
+ 12  =Family earn 
+ 13  =len to string 
+ 14  =List Odd and Even Numbers 
+ 15  =To find types 
+ 16  =Boolen is find digit or Numbers  
+ 17  =splite a word in single letter 
+ 18  =Break Continue 
+ 19  =List break 
+ 20  =Multiple a,b 
+ 21  =list remove,pop 
+ 22  =Ascending,Dscending 
+ 23  =Basic sep,end 
+ 24  =String slice,find 
+ 25  =Slice find index value
+ 26  =rstrip,lstrip... 
+ 27  =Add,sub 
+ 28  =To find list index 
+ 29  =To find tuple index 
+ 30  =Use _*#.. 
+ 31  =is upper,space 
+ 32  =College fees 
+ 33  =list index 
+ 34  =Leap year 
+ 35  =Find greatest of 4 Numbers
+ 36  =check for vote 
+ 37  =Say Hello in all 
+ 38  =Engineering Cutoff calculate 
+ 39  =Medical cutoff calculate 
+ 40  =Calendar 
+ 41  =For use Table 
+ 42  =Loop Odd num,Even num 
+ 43  =Circulating 
+ 44  =Def use to add 
+ 45  =Def area of circle 
+ 46  =Def leap year 
+ 47  =Def vote 
+ 48  =Great of 4 value 
+ 49  =Type Identify
 """
 
 print(abi)
@@ -622,6 +622,10 @@ elif single==49:
     print(type(no),no)
     print(type(bye),bye)
     print(type(point),point)
+
+elif single==50:
+    print("")
+    
 
 else: print("SORRY,You Enter the wrong number,PLEASE ENTER CORRECT NUMBER...")
 
