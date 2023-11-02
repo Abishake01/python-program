@@ -48,6 +48,7 @@ abi="""
  47  =Def vote 
  48  =Great of 4 value 
  49  =Type Identify
+ 50  =About You
 """
 
 print(abi)
@@ -79,9 +80,8 @@ elif single==3:
     y=a-b-c
     z=a*b*c
     print("Add a,b,c ",x)
-    print("sub a,b,c ",y)
-    print("mul a,b,c ",z)
-
+    print("Sub a,b,c ",y)
+    print("Mul a,b,c ",z)
     print(a,",",b,",",c)
     
 #canadin code.......
@@ -624,7 +624,16 @@ elif single==49:
     print(type(point),point)
 
 elif single==50:
-    print("")
+    print("About You")
+    name=input("Enter your Name: ")
+    age=int(input("Enter Your Age: "))
+    study=input("Enter your Department: ")
+    college=input("Enter your College Name: ")
+    print("Your Name: ",name)
+    print("Your Age: ",age)
+    print("You are studying: ",study)
+    print("Your College: ",college)
+    
     
 
 else: print("SORRY,You Enter the wrong number,PLEASE ENTER CORRECT NUMBER...")
