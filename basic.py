@@ -639,5 +639,5 @@ elif single==50:
 else: print("SORRY,You Enter the wrong number,PLEASE ENTER CORRECT NUMBER...")
 
 
-                                    #500 line codeing.....
+                                  #50 programs 
 
