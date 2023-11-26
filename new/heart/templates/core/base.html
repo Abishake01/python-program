@@ -8,13 +8,36 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
 </head>
 <body>
-    <nav class="py-6 px-6 flex justify-between items-center border-b border-gray-200">
+    <nav class="py-6 px-6 flex justify-between items-center border-2 border-gray-400 bg-green-300">
         <a href="/" class="text-xl font-semibold">Public</a>
-    </nav>
+   
+    <div class="space-x-5">
+        <a href="#" class="text-lg font-semibold hover:text-blue-600 "  >New website</a>
+        <a href="#"class="text-lg font-semibold hover:text-blue-600 " >Browser</a>
+        <a href="#" class="px-6 py-3 text-lg font-semibold hover:text-blue-900 border-blue-100 rounded-full bg-pink-400">sign in</a>
+        <a href="#" class="px-6 py-3 text-lg font-semibold hover:text-blue-900 border-blue-100 rounded-full bg-pink-400">log in</a>
+    </div>
+</nav>
+
     <div class="px-6 py-6">
     
    {% block contant %}
    {% endblock %}
+</div>
+<div class="  bg-gray-800 justify-between flex ">
+    <div>
+    <h1 class="px-6 py-6 text-gray-400">About</h1>
+    <p class="ml-6 text-gray-400"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quibusdam.</p>
+</div>
+    <div >
+        <h2 class="mt-6 text-xl text-gray-400 hover:blue-300">Menu</h2>
+        <ul class="mt-5 space-y-2" >
+            <li><a href="#" class="  font-semibold text-white hover:text-blue-400">About </a></li>
+            <li><a href="{% url 'contact' %}" class="  font-semibold text-white hover:text-blue-400">contact</a></li>
+            <li><a href="#" class="  font-semibold text-white hover:text-blue-400">Privacy</a></li>
+            <li><a href="#" class="  font-semibold text-white hover:text-blue-400">Libray</a></li>
+        </ul>
+    </div>
 </div>
      
 </body>
