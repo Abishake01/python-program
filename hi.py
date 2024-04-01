@@ -15,5 +15,6 @@ def generate_content(title, summary):
 # Example usage
 title = "Title of the content"
 summary = "Brief summary or introduction"
-generated_content = generate_content(title, summary)
+generated_content = gene
+rate_content(title, summary)
 print(generated_content)
