@@ -1,3 +1,4 @@
+#Lis tis a Mutable--> It means Changeable 
 state=['Tamil Nadu','Kerla','Andra Pradesh','Goa']
 #If Want to change an element in the list usethis method [0] o
 state[3]='karnataka'
