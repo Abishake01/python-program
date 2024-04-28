@@ -6,8 +6,9 @@ v(23)# it is call function.  Error-->TypeError: can only concatenate str (not "i
 def add(a,b):
     c=a+b
     print(c)
-add(5,6)
+add(5,6)#add(a=5,b=6) we also use like this same answer 
 '''
+We get the input of value and call the function also
 def v(name):  Error->TypeError: v() missing 1 required positional argument: 'name'
     print('Function Works ...'+name)
 v()
@@ -17,3 +18,6 @@ def add(a,b):
 d=add(5,6)
 print(d)
 '''
+def name(*val):# name(*val) * the star denotes all value of the ()like tuple
+    print(val[1])
+name('abi','baral','lucy')
