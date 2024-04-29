@@ -12,12 +12,14 @@ We get the input of value and call the function also
 def v(name):  Error->TypeError: v() missing 1 required positional argument: 'name'
     print('Function Works ...'+name)
 v()
-def add(a,b):
-    c=a+b
-    return(c)
-d=add(5,6)
-print(d)
+
 '''
 def name(*val):# name(*val) * the star denotes all value of the ()like tuple
     print(val[1])
 name('abi','baral','lucy')
+
+def sub(a,b):
+    c=a-b
+    return c# return type in python function
+d=sub(5,6)
+print(d)
