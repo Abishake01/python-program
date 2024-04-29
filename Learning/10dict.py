@@ -6,7 +6,7 @@ dict={
     'course':'Django',
     'friends':['bala','kp']
     
-}
+}#{key:value} to access value using keys
 a=dict['Age']
 print('age',a)
 print(dict)
