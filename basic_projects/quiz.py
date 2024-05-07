@@ -30,4 +30,4 @@ if answer.lower()=='chief minister':
 else:
     print('Incorrect')
     
-print('You Got a ',point,'Points in the Quiz')
+print('You Got a ',(point/4)*100,'Points in the Quiz')
