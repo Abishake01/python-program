@@ -4,9 +4,9 @@ def load_key():
     key=file.read()
     file.close()
     return key
-main_pwd=input('What is Your Master Password: ')
+ 
 
-key=load_key() + main_pwd.encode()
+key=load_key()
 fer=Fernet(key)
 
 '''
