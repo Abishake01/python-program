@@ -18,7 +18,7 @@ if answer.lower()=='read only memory':
 else:
     print('Incorrect')
 answer=input('Full Form of CPU?\n')
-if answer.lower()=='central process unit':
+if answer.lower()=='central processing unit':
     print('Correct')
     point+=1
 else:
