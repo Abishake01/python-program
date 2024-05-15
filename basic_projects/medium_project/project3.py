@@ -17,8 +17,8 @@ def problem_gen():
  
  
 wrong=0
-print('Press Enter to start!')
-print('________________________________')
+print('Lets start the Math Problems!')
+print('---------------------------------')
 start_time=time.time()
 for i in range(TOTAL_PROBLEMS):
     exp,answer=problem_gen()
@@ -29,6 +29,6 @@ for i in range(TOTAL_PROBLEMS):
         wrong+=1
 end_time=time.time()
 Total_time=round(end_time-start_time)
-print('_________________________________')
+print('---------------------------------')
 print('Nice Work You Finished ',Total_time,'seconds')
 print('Wrong Answers ',wrong)
