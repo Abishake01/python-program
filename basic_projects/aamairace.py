@@ -17,9 +17,17 @@ def get_numberof_racers():
         if 2<= racer <=10:
             return racer
         else:
-            print('Must be between the range (2-10)...Try again')
-#def race():
-
+            print('The number Must be between the range (2-10)...Try again')
+def race(colors):
+    turtles=create_turtles(colors)
+    while True:
+        for racer in turtles:
+            distance=random.randrange(1,10)
+            racer.forward(distance)
+            
+            x,y=racer.pos()
+            if y>= HEIGHT //2 -10:
+                return colors[turtles.index(racer)]
 
 def create_turtles(colors):
     turtles=[]
@@ -41,11 +49,12 @@ def init_race():
     screen.title('Aamai Race')
             
 racers=get_numberof_racers()
-print(racers)
 init_race()
 random.shuffle(COLORS)
 colors=COLORS[:racers]
-create_turtles(colors)
+winner=race(colors)
+print("The Winner is ",winner)
+time.sleep(5)
 '''
 #basic turtle function
 racer=turtle.Turtle()
