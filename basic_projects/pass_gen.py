@@ -33,7 +33,7 @@ def pass_gen(min_length,numbers=True,special_character=True):
         if numbers:
             meets_critera=has_number
         if special_character:
-            meets_criteria=meets_criteria and has_special
+            meets_criteria=meets_critera and has_special
             
     return pwd
             
