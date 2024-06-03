@@ -55,35 +55,3 @@ colors=COLORS[:racers]
 winner=race(colors)
 print("The Winner is ",winner)
 time.sleep(5)
-'''
-#basic turtle function
-racer=turtle.Turtle()
-
-racer.speed(1)#It is a speed of the turtle
-racer.penup()#It is used to remove a line turtle move...
-racer.shape('turtle')# It is a turtle shape shows...
-racer.color('yellow')#It is used for a color difference
-racer.forward(100)#forward and backward is a distance move
-racer.pendown()#it shows a line
-racer.left(90)#left right is a 90degree,45degree
-racer.forward(100)
-racer.right(90)
-racer.backward(100)
-racer.right(90)
-racer.forward(100)
- 
-racer2=turtle.Turtle()
-
-racer2.speed(5)#It is a speed of the turtle
-racer2.penup()#It is used to remove a line turtle move...
-racer2.shape('turtle')# It is a turtle shape shows...
-racer2.color('brown')#It is used for a color difference
-racer2.forward(150)#forward and backward is a distance move
-racer2.pendown()#it shows a line
-racer2.left(90)#left right is a 90degree,45degree
-racer2.forward(100)
-racer2.right(90)
-racer2.backward(150)
-racer2.right(90)
-racer2.forward(150)
-'''
