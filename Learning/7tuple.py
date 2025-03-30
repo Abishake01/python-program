@@ -1,6 +1,6 @@
 # Tuple is immutable --> Unchangeable  we use ()brackets When we separate , is identify it is tuple
 name='a',1,True
-area=tuple(('adf'))
+area=str(('adf'))
 print(name)#('a', 1)
 print(type(name))#<class 'tuple'>
 print(len(name))

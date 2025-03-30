@@ -56,17 +56,18 @@ single=int(input("Which Programm You Want Enter the Number: "))
 #Temprary a and b number change.....
 if single==1:
     print("*It is a temp swaping")
-    a=int(input("Enter a  number: "))
-    b=int(input("Enter b  number: "))
+    a=int(input("Enter A  number: "))
+    b=int(input("Enter B  number: "))
+    print('Before Swaping A is',a,'B is',b)
     a=a+b
     b=a-b
     a=a-b
-    print("a is",a,",","b is ",b)
+    print("After swaping A is",a,",","B is ",b)
 #Tupulerf
 elif single==2:
     print("*it is a tuple swap")
-    a=int(input("Enter a  number: "))
-    b=int(input("Enter b  number: "))
+    a=int(input("Enter A  number: "))
+    b=int(input("Enter B  number: "))
     a,b=b,a
     print("swapping a to  b", a)
     print("swapping b to a", b)
@@ -140,7 +141,7 @@ elif single==5:
         sum=sum+(r**b)
         n=n//10
     if s==sum:
-        print("The given number", s ,"is armstrong numbber")
+        print("The given number", s ,"is armstrong number")
     else :
         print("The given number", s ,"is not armstrong  number")
 
@@ -633,7 +634,6 @@ elif single==50:
     print("Your Age: ",age)
     print("You are studying: ",study)
     print("Your College: ",college)
-    
     
 
 else: print("SORRY,You Enter the wrong number,PLEASE ENTER CORRECT NUMBER...")

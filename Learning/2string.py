@@ -1,5 +1,7 @@
-str='Harry POtter'#string
-#\n is used for next line
+str='Harry POtter bye'#string
+#    01234567891011
+#\n is used for next line  
+print(len(str))
 print('The Movie name is\n',str)
 #str  shows a value stored in the variable
 print(str)
@@ -19,6 +21,6 @@ print(str.islower())
 print(str.isupper())
 print(len(str))
 print(str.index('a'))#print(str.index('A')) ValueError: substring not found
-print(str.replace('r','p'))
+print(str.replace('bye','boy'))
 #We use this method also
 print(str.upper().isupper())

@@ -1,8 +1,7 @@
 dict={
     'name':'Abi',
     'nationality':'Indian',
-    'Age':19,
-    'course':'Python',
+    'Age':19,  
     'course':'Django',
     'friends':['bala','kp']
     

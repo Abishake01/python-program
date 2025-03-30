@@ -1,11 +1,11 @@
-#Lis tis a Mutable--> It means Changeable 
+#List is a Mutable--> It means Changeable 
 state=['Tamil Nadu','Kerla','Andra Pradesh','Goa']
 #If Want to change an element in the list usethis method [0] o
 state[3]='karnataka'
 print(state)
 print(len(state))
 #print(state[0]) To Access Index Value
-print(state[0][4]) #to find an element using index value
+print(state[0]) #to find an element using index value
 print(state[1:])
 print(state[:2])
 print(state[0:3])#n-1 [start:end]end-1 will display
@@ -36,7 +36,7 @@ del l3[0] # delete the element are in the index of the list
 # After the process it show an error NameError: name 'l3' is not defined. Did you mean: 'l1'?
 print(l1)
 print(l2)
-print(l3)
+print(l3)#yellow
 # Methods Start
 l1.append(l2)# Append is add a bunch of list or element in a new list---> it separate a list
 l1.append(56)#Append add a element int he last of the list
